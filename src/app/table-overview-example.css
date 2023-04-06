@@ -1,0 +1,58 @@
+.example-container {
+  border-radius: 10px 10px 10px 10px;
+  /*border: solid rebeccapurple;*/
+  overflow: auto;
+  background-color: white;
+}
+
+.example-table-container {
+  position: relative;
+  border-radius: 10px 10px 0 0;
+  /*border: solid green;*/
+  min-height: 200px;
+  max-height: 500px;
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+}
+
+.table-header {
+  background-color: #020058;
+  color: white;
+}
+
+th {
+  color: white;
+}
+
+::ng-deep .mat-sort-header-arrow {
+  color: white;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+td,
+th {
+  width: 25%;
+}
+
+.paginator-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #e0e0e0;
+  /*border: dashed red;*/
+}
+
+.total {
+  margin: auto auto auto 1rem;
+}
+mat-paginator {
+  border-radius: 0 0 10px 10px;
+  /*border: dashed red;*/
+}
